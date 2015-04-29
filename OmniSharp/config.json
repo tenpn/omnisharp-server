@@ -27,7 +27,9 @@
 
   "IgnoredCodeIssues": [
     "^Keyword 'private' is redundant. This is the default modifier.$",
-    ".* should not separate words with an underscore.*"
+      ".* should not separate words with an underscore.*",
+      "The private field .* is never assigned",
+      "Convert to constant"
   ],
 
   "TestCommands": {
